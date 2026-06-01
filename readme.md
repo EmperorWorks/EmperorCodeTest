@@ -7,7 +7,7 @@ Admin login: *admin@admin.com / MW>Y5XSxG?*
 
 ## Objective
 Integrate this XML feed 
-https://raw.githubusercontent.com/EmperorWorks/EmperorCodeTest/refs/heads/main/xmlfeed/news_feed.xml
+https://raw.githubusercontent.com/EmperorWorks/EmperorCodeTest/refs/heads/master/xmlfeed/news_feed.xml
 
 into this umbraco page https://localhost:44330/news/  (the port may differ on your version!)
 
@@ -30,5 +30,5 @@ We will test with other XML feeds that may not be 100% reliable or performant, y
 As with any modern secure website we've added a (minimal) Content security policy, you can make changes to it.
 
 ## Instructions
-Clone down or fork this repositiory (preferably) and give us the url to your updated version!
+Clone down and give us the url to your updated version!
 This should take around an hour
