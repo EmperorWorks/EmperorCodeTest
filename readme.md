@@ -7,7 +7,7 @@ Admin login: *admin@admin.com / MW>Y5XSxG?*
 
 ## Objective
 Integrate this XML feed 
-https://raw.githubusercontent.com/EmperorWorks/EmperorCodeTest/refs/heads/master/xmlfeed/news_feed.xml
+https://raw.githubusercontent.com/EmperorWorks/EmperorCodeTest/refs/heads/main/xmlfeed/news_feed.xml
 
 into this umbraco page https://localhost:44330/news/  (the port may differ on your version!)
 
@@ -22,12 +22,13 @@ Each article should show:
 * Read more link going to the erxternal site
 
 Articles should be listed by descending date order
+The feed is not expected to update more than once a day at UTC midnight.
 
 HTML and CSS is already created for these components.
 
 ## Hints
 We will test with other XML feeds that may not be 100% reliable or performant, your code should be able to handle these cases gracefully.
-As with any modern secure website we've added a (minimal) Content security policy, you can make changes to it.
+As with any modern secure website we've added a (minimal) Content security policy, you can make changes to it, run your site under IISexpress in Visual Studio to see this take effect.
 
 ## Instructions
 Clone down and give us the url to your updated version!
